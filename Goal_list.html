@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>What Are Your Goals?</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="flex flex-col h-screen items-center justify-center bg-gray-200 font-sans" style="font-family: Montserrat;">
+    <div class="container mx-auto p-4 text-left relative bg-white rounded-lg shadow-md max-w-md h-screen flex flex-col justify-between" style="width: 350px; height: 700px;">
+
+
+        <div>
+            <a href="Tracker.html" class="float-right text-blue-500 text-sm font-medium hover:underline h-12">Next</a>
+        </div>
+
+        <h1 class="text-black-500 text-2xl font-semibold mb-4 text-center">What Are Your Goals?</h1>
+
+        <form class="flex-grow mb-4 space-y-4">
+            <div class="container flex justify-between px-4 py-2 rounded-md border-2 border-gray-300 h-12">
+                <label for="weightLoss" class="text-lg font-medium text-gray-700">Weight Loss</label>
+                <input type="checkbox" id="weightLoss" name="goal" class="mr-2">
+            </div>
+            
+            <div class="container flex justify-between px-4 py-2 rounded-md border-2 border-gray-300 h-12">
+                <label for="muscleGain" class="text-lg font-medium text-gray-700">Muscle Gain</label>
+                <input type="checkbox" id="muscleGain" name="goal" class="mr-2">
+            </div>
+
+            <div class="container flex justify-between px-4 py-2 rounded-md border-2 border-gray-300 h-12">
+                <label for="flexibility" class="text-lg font-medium text-gray-700">Flexibility and Mobility</label>
+                <input type="checkbox" id="flexibility" name="goal" class="mr-2">
+            </div>
+
+            <div class="container flex justify-between px-4 py-2 rounded-md border-2 border-gray-300 h-12">
+                <label for="generalFitness" class="text-lg font-medium text-gray-700">General Fitness</label>
+                <input type="checkbox" id="generalFitness" name="goal" class="mr-2">
+            </div>
+
+            <div class="container flex justify-between px-4 py-2 rounded-md border-2 border-gray-300 h-12">
+                <label for="eventTraining" class="text-lg font-medium text-gray-700">Event Specific Training</label>
+                <input type="checkbox" id="eventTraining" name="goal" class="mr-2">
+            </div>
+
+            <div class="container flex justify-between px-4 py-2 rounded-md border-2 border-gray-300 h-12">
+                <label for="mentalHealth" class="text-lg font-medium text-gray-700">Mindfulness and Mental Health</label>
+                <input type="checkbox" id="mentalHealth" name="goal" class="mr-2">
+            </div>
+        </form>
+
+        <button type="submit" class="bg-blue-500 text-white p-2 rounded-md w-full">Submit</button>
+        
+    </div>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Create an Account</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="flex flex-col min-h-screen items-center justify-center bg-gray-200 font-sans" style="font-family: Montserrat;">
+    <div class="container mx-auto p-4 text-left bg-white rounded-lg shadow-md max-w-md w-full md:w-3/4 lg:w-2/4" style="width: 350px; height: 680px;">
+        <h1 class="text-black text-2xl md:text-3xl font-semibold mb-4">Create an Account</h1>
+        
+        <form class="mb-4">
+            <div class="mb-4">
+                <label for="firstName" class="block text-sm md:text-base font-medium text-black">First Name</label>
+                <input type="text" id="firstName" name="firstName" class="mt-1 p-2 w-full border rounded-md text-sm md:text-base">
+            </div>
+            
+            <div class="mb-4">
+                <label for="lastName" class="block text-sm md:text-base font-medium text-black">Last Name</label>
+                <input type="text" id="lastName" name="lastName" class="mt-1 p-2 w-full border rounded-md text-sm md:text-base">
+            </div>
+            
+            <div class="mb-4">
+                <label for="email" class="block text-sm md:text-base font-medium text-black">Email</label>
+                <input type="email" id="email" name="email" class="mt-1 p-2 w-full border rounded-md text-sm md:text-base">
+            </div>
+            
+            <div class="mb-4">
+                <label for="password" class="block text-sm md:text-base font-medium text-black">Password</label>
+                <input type="password" id="password" name="password" class="mt-1 p-2 w-full border rounded-md text-sm md:text-base">
+            </div>
+            
+            <div class="mb-4 text-sm md:text-base">
+                <input type="checkbox" id="terms" name="terms" class="mr-2">
+                <label for="terms" class="text-black">By proceeding, I agree to all <a href="#" class="text-blue-500">T&C</a> and <a href="#" class="text-blue-500">Privacy Policy</a></label>
+            </div>
+            
+            <div class="mt-20">
+                <a href="Goal_list.html" class="bg-blue-500 text-white p-2 rounded-md w-full md:text-lg block text-center">Create An Account</a>
+            </div>
+        </form>
+
+        <div class="relative my-4">
+            <hr class="border-black w-full">
+            <span class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white px-4 text-black text-sm md:text-base">Or</span>
+        </div>
+
+        <div class="flex justify-center mt-4 space-x-8 md:space-x-12">
+            <img src="images/google_icon.png" alt="google icon" class="w-10 h-10 md:w-12 md:h-12">
+            <img src="images/facebook_icon.png" alt="facebook icon" class="w-10 h-10 md:w-12 md:h-12">
+        </div>
+        
+        <p class="mt-4 text-center text-sm md:text-base">Already have an account? <a href="SignInPage.html" class="text-blue-500">Login</a></p>
+    </div>
+</body>
+</html>
